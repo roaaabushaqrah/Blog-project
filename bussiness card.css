@@ -1,0 +1,127 @@
+ /*busineescard page*/
+ .card {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: #ecf0f1;
+    margin: 60px auto;
+    top:10px;
+}
+
+
+.head {
+    position: absolute;
+    height: 120px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(to right, #ff944d,#f0b18a);
+}
+
+.head img {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 90px;
+    top: 22px;
+}
+
+.head h3 {
+    position: absolute;
+    
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 118px;
+    left: 90px;
+}
+
+.head p {
+    position: absolute;
+    
+    
+    font-size: 13px;
+    top: 166px;
+    left: 90px
+}
+
+.body {
+    position: absolute;
+    height: 126px;
+    left: 5px;
+    right: 5px;
+    top: 52%;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.body ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.body li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+
+.body ul li p,
+h3,
+i {
+    position: absolute;
+}
+
+.body ul li h3 {
+    top: -17px;
+    left: 58px;
+    color: #576574;
+}
+
+.body ul li p {
+    top: 14px;
+    left: 59px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #576574;
+}
+
+.body ul li i {
+    left: 8px;
+    top: 7px;
+    color: #16a085;
+    font-size: 26px;
+}
+
+.body ul li:nth-child(1) {
+    top: -16px;
+}
+
+.body ul li:nth-child(2) {
+    top: 26px;
+}
+
+.body ul li:nth-child(3) {
+    top: 68px;
+}
+
+.body ul li:nth-child(1) i {
+    left: 12px;
+}
+
+.body li:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+
